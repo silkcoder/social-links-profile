@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .subtitle {
+    @apply text-brandy-red font-young-serif text-[28px] leading-7 mb-6;
+  }
+}
